@@ -1,65 +1,128 @@
-import Image from "next/image";
-
+import Link from 'next/link'
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+    <div>
+      <h1 className="text-center font-mono text-2xl text-red-500 p-2">List of machine code test</h1>
+      <div className="flex justify-evenly">
+        <ul className="text-xs mx-2 border-2 border-black mt-4 bg-emerald-400 w-1/4 p-2 rounded-none shadow-lg font-mono">
+          <li className='hover:text-yellow-800 visited:text-white-600'><Link href="/toaster">Toaster</Link></li>
+          <li>React star Rating</li>
+          <li>Pagination</li>
+          <li>OtP</li>
+          <li>Carousel</li>
+          <li>Search Bar</li>
+          <li>Infinite scroll</li>
+          <li>Progress Bar</li>
+          <li>Accordian</li>
+          <li>stopWatch</li>
+          <li>File Explorer</li>
+          <li>Multi Step Form</li>
+        </ul>
+        <ul className="text-xs  mx-2 border-2 border-black mt-4 bg-yellow-400 w-1/4  p-2 rounded-none shadow-lg font-mono">
+          <li>React Calendar</li>
+          <li>Faq</li>
+          <li>Drag and drop</li>
+          <li>React Modal</li>
+          <li>Crypto Converter</li>
+          <li>Indeterminate checkbox</li>
+          <li>Typing Effect</li>
+          <li>React File uploader usingDrag and drop</li>
+          <li>Whack-a-Mole</li>
+          <li>Employee database management</li>
+          <li>Cinemal Hall tickets</li>
+          <li>Center Div using flex and vh heiht</li>
+        </ul>
+        <ul className="text-xs  mx-2 border-2 border-black mt-4 bg-red-400 w-1/4  p-2 rounded-none shadow-lg font-mono">
+          <li>Tic Tac Toe</li>
+          <li>Snake game</li>
+          <li>Todo list</li>
+          <li>Virtaulaized list</li>
+          <li>React stepper</li>
+          <li>React tab</li>
+          <li>Editable tab</li>
+          <li>Memory game</li>
+          <li>Nested Component</li>
+          <li>File Explorer</li>
+          <li>Traffic Lights</li>
+          <li>Like Button</li>
+        </ul>
+        <ul className="text-xs mx-2 border-2 border-black mt-4 bg-blue-400 w-1/4  p-2 rounded-none shadow-lg font-mono">
+          <li>Countdown timer</li>
+          <li>Image slider</li>
+          <li>Color picker</li>
+          <li>Weather app</li>
+          <li>Expense tracker</li>
+          <li>Recipe app</li>
+          <li>Markdown previewer</li>
+          <li>Budget planner</li>
+          <li>Habit tracker</li>
+          <li>Movie search app</li>
+          <li>Language translator</li>
+          <li>Blog nested Comments</li>
+        </ul>
+      </div>
+      <div className="flex justify-evenly">
+        <ul className="text-xs mx-2 border-2 border-black mt-2 bg-lime-400 w-1/4  p-2 rounded-none shadow-lg font-mono">
+          <li>Quiz app</li>
+          <li>Recipe finder</li>
+          <li>Music player</li>
+          <li>Book tracker</li>
+          <li>Fitness tracker</li>
+          <li>Photo gallery</li>
+          <li>News aggregator</li>
+          <li>Job board</li>
+          <li>Event planner</li>
+          <li>Social media dashboard</li>
+          <li>Travel itinerary planner</li>
+          <li>Poll Widgets</li>
+          <li>Div color</li>
+        </ul>
+        <ul className="text-xs mx-2 border-2 border-black mt-2 bg-pink-400 w-1/4  p-2 rounded-none shadow-lg font-mono">
+          <li>Language learning app</li>
+          <li>Virtual bookshelf</li>
+          <li>Podcast player</li>
+          <li>Meal planner</li>
+          <li>Grocery list app</li>
+          <li>Interior design planner</li>
+          <li>Wedding planner</li>
+          <li>Baby name generator</li>
+          <li>Gift idea generator</li>
+          <li>Daily journal app</li>
+          <li>Mindfulness app</li>
+          <li>Auto Suggestion input</li>
+          <li>Job Board</li>
+        </ul>
+        <ul className="text-xs  mx-2 border-2 border-black mt-2 bg-purple-400 w-1/4  p-2 rounded-none shadow-lg font-mono">
+          <li>Sleep tracker</li>
+          <li>Water intake tracker</li>
+          <li>Calorie counter</li>
+          <li>Step counter</li>
+          <li>Body measurement tracker</li>
+          <li>Period tracker</li>
+          <li>Medication reminder</li>
+          <li>Doctor appointment scheduler</li>
+          <li>Health symptom checker</li>
+          <li>First aid guide</li>
+          <li>Emergency contact app</li>
+          <li>Stepper</li>
+          <li>Dark and light mode</li>
+        </ul>
+        <ul className="text-xs mx-2 border-2 border-black mt-2 bg-cyan-400 w-1/4  p-2 rounded-none shadow-lg font-mono">
+          <li>Car maintenance tracker</li>
+          <li>Fuel efficiency tracker</li>
+          <li>Trip planner</li>
+          <li>Parking spot finder</li>
+          <li>Public transit app</li>
+          <li>Traffic tracker</li>
+          <li>Roadside assistance app</li>
+          <li>Carpooling app</li>
+          <li>Electric vehicle charger finder</li>
+          <li>Vehicle expense tracker</li>
+          <li>Car wash locator</li>
+          <li>Multi Select Search</li>
+          <li>Breadcrumb</li>
+        </ul>
+      </div>
     </div>
   );
 }
