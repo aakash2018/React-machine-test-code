@@ -6,14 +6,22 @@ export default function Home() {
       <div className="flex justify-evenly">
         <ul className="text-xs mx-2 border-2 border-black mt-4 bg-emerald-400 w-1/4 p-2 rounded-none shadow-lg font-mono">
           <li className='hover:text-yellow-800 visited:text-white-600'><Link href="/toaster">Toaster</Link></li>
-          <li>React star Rating</li>
+          <li className='hover:text-yellow-800 visited:text-white-600'>
+            <Link href="/rating">
+              React star Rating
+            </Link>
+          </li>
           <li>Pagination</li>
           <li>OtP</li>
           <li>Carousel</li>
           <li>Search Bar</li>
           <li>Infinite scroll</li>
           <li>Progress Bar</li>
-          <li>Accordian</li>
+          <li className='hover:text-yellow-800 visited:text-white-600'>
+            <Link href="/accordian">
+              Accordian
+            </Link>
+          </li>
           <li>stopWatch</li>
           <li>File Explorer</li>
           <li>Multi Step Form</li>
