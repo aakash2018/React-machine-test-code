@@ -55,7 +55,9 @@ export default function Home() {
           <li>Like Button</li>
         </ul>
         <ul className="text-xs mx-2 border-2 border-black mt-4 bg-blue-400 w-1/4  p-2 rounded-none shadow-lg font-mono">
-          <li>Countdown timer</li>
+          <li className='hover:text-yellow-800 visited:text-white-600'>
+            <Link href="/timer"> Countdown timer</Link>
+            </li>
           <li>Image slider</li>
           <li>Color picker</li>
           <li>Weather app</li>
