@@ -23,7 +23,8 @@ export default function Home() {
             </Link>
           </li>
           <li>stopWatch</li>
-          <li>File Explorer</li>
+          <li className='hover:text-yellow-800 visited:text-white-600'>
+            <Link href="/fileExplorer">File Explorer</Link></li>
           <li>Multi Step Form</li>
         </ul>
         <ul className="text-xs  mx-2 border-2 border-black mt-4 bg-yellow-400 w-1/4  p-2 rounded-none shadow-lg font-mono">
@@ -38,7 +39,9 @@ export default function Home() {
           <li>Whack-a-Mole</li>
           <li>Employee database management</li>
           <li>Cinemal Hall tickets</li>
-          <li>Center Div using flex and vh heiht</li>
+          <li className='hover:text-yellow-800 visited:text-white-600'>
+            <Link href="/centerDiv">Center Div using flex and vh heiht </Link>
+          </li>
         </ul>
         <ul className="text-xs  mx-2 border-2 border-black mt-4 bg-red-400 w-1/4  p-2 rounded-none shadow-lg font-mono">
           <li>Tic Tac Toe</li>
