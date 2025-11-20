@@ -12,7 +12,11 @@ export default function Home() {
             </Link>
           </li>
           <li>Pagination</li>
-          <li>OtP</li>
+          <li className='hover:text-yellow-800 visited:text-white-600'>
+             <Link href="/otp">
+                OtP
+             </Link>
+          </li>
           <li>Carousel</li>
           <li>Search Bar</li>
           <li>Infinite scroll</li>
