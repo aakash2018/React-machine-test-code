@@ -13,9 +13,9 @@ export default function Home() {
           </li>
           <li>Pagination</li>
           <li className='hover:text-yellow-800 visited:text-white-600'>
-             <Link href="/otp">
-                OtP
-             </Link>
+            <Link href="/otp">
+              OtP
+            </Link>
           </li>
           <li>Carousel</li>
           <li>Search Bar</li>
@@ -50,7 +50,9 @@ export default function Home() {
         <ul className="text-xs  mx-2 border-2 border-black mt-4 bg-red-400 w-1/4  p-2 rounded-none shadow-lg font-mono">
           <li>Tic Tac Toe</li>
           <li>Snake game</li>
-          <li>Todo list</li>
+          <li className='hover:text-yellow-800 visited:text-white-600'>
+            <Link href="/todo">Todo list</Link>
+          </li>
           <li>Virtaulaized list</li>
           <li>React stepper</li>
           <li className='hover:text-yellow-800 visited:text-white-600'>
