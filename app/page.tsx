@@ -61,7 +61,9 @@ export default function Home() {
           <li>Memory game</li>
           <li>Nested Component</li>
           <li>File Explorer</li>
-          <li>Traffic Lights</li>
+          <li className='hover:text-yellow-800 visited:text-white-600'>
+             <Link href="/trafficLight">Traffic Lights</Link>
+            </li>
           <li>Like Button</li>
         </ul>
         <ul className="text-xs mx-2 border-2 border-black mt-4 bg-blue-400 w-1/4  p-2 rounded-none shadow-lg font-mono">
