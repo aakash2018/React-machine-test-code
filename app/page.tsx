@@ -35,7 +35,9 @@ export default function Home() {
           <li>React Calendar</li>
           <li>Faq</li>
           <li>Drag and drop</li>
-          <li>React Modal</li>
+          <li  className='hover:text-yellow-800 visited:text-white-600'>
+            <Link href="/Reactmodal">React Modal</Link>
+          </li>
           <li>Crypto Converter</li>
           <li>Indeterminate checkbox</li>
           <li>Typing Effect</li>
