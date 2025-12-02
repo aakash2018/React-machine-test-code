@@ -11,33 +11,42 @@ export default function Home() {
               React star Rating
             </Link>
           </li>
-          <li>Pagination</li>
           <li className='hover:text-yellow-800 visited:text-white-600'>
             <Link href="/otp">
               OtP
             </Link>
           </li>
+          <li>Pagination</li>
           <li>Carousel</li>
           <li>Search Bar</li>
           <li>Infinite scroll</li>
-          <li>Progress Bar</li>
+          <li
+            className='hover:text-yellow-800 visited:text-white-600'
+          >
+            <Link href="/progressbar">
+              Progress Bar
+            </Link>
+          </li>
           <li className='hover:text-yellow-800 visited:text-white-600'>
             <Link href="/accordian">
               Accordian
             </Link>
           </li>
-          <li>stopWatch</li>
+          <li className='hover:text-yellow-800 visited:text-white-600'>
+            <Link href="/Reactmodal">React Modal</Link>
+          </li>
           <li className='hover:text-yellow-800 visited:text-white-600'>
             <Link href="/fileExplorer">File Explorer</Link></li>
+          <li className='hover:text-yellow-800 visited:text-white-600'>
+            <Link href="/centerDiv">Center Div using flex and vh heiht </Link>
+          </li>
+          <li>stopWatch</li>
           <li>Multi Step Form</li>
         </ul>
         <ul className="text-xs  mx-2 border-2 border-black mt-4 bg-yellow-400 w-1/4  p-2 rounded-none shadow-lg font-mono">
           <li>React Calendar</li>
           <li>Faq</li>
           <li>Drag and drop</li>
-          <li  className='hover:text-yellow-800 visited:text-white-600'>
-            <Link href="/Reactmodal">React Modal</Link>
-          </li>
           <li>Crypto Converter</li>
           <li>Indeterminate checkbox</li>
           <li>Typing Effect</li>
@@ -45,9 +54,6 @@ export default function Home() {
           <li>Whack-a-Mole</li>
           <li>Employee database management</li>
           <li>Cinemal Hall tickets</li>
-          <li className='hover:text-yellow-800 visited:text-white-600'>
-            <Link href="/centerDiv">Center Div using flex and vh heiht </Link>
-          </li>
         </ul>
         <ul className="text-xs  mx-2 border-2 border-black mt-4 bg-red-400 w-1/4  p-2 rounded-none shadow-lg font-mono">
           <li>Tic Tac Toe</li>
@@ -64,9 +70,10 @@ export default function Home() {
           <li>Nested Component</li>
           <li>File Explorer</li>
           <li className='hover:text-yellow-800 visited:text-white-600'>
-             <Link href="/trafficLight">Traffic Lights</Link>
-            </li>
+            <Link href="/trafficLight">Traffic Lights</Link>
+          </li>
           <li>Like Button</li>
+          <li>Use Memo Hooks</li>
         </ul>
         <ul className="text-xs mx-2 border-2 border-black mt-4 bg-blue-400 w-1/4  p-2 rounded-none shadow-lg font-mono">
           <li className='hover:text-yellow-800 visited:text-white-600'>
@@ -83,6 +90,7 @@ export default function Home() {
           <li>Movie search app</li>
           <li>Language translator</li>
           <li>Blog nested Comments</li>
+          <li>Chatboat</li>
         </ul>
       </div>
       <div className="flex justify-evenly">
